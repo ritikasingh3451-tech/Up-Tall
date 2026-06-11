@@ -121,3 +121,151 @@ a{color:inherit;text-decoration:none}
   .founder-row{grid-template-columns:minmax(0,1fr) 108px;column-gap:12px}
   .founder-img{width:108px;height:145px}
 }
+@media (max-width: 600px) {
+
+  .top-strip {
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .site-header {
+    height: 72px;
+    padding: 0 22px;
+    grid-template-columns: auto 1fr;
+  }
+
+  .left-nav {
+    gap: 22px;
+  }
+
+  .nav-link {
+    font-size: 22px;
+  }
+
+  .logo-wrap {
+    justify-self: end;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .hero {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 50px 6vw 70px;
+    align-items: center;
+  }
+
+  .hero-copy h1 {
+    font-size: 38px;
+    line-height: 1.08;
+    margin: 0 0 28px;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 175px;
+    border-radius: 26px;
+  }
+
+  .primary-btn {
+    min-width: 0;
+    width: 100%;
+    height: 48px;
+    padding: 0 18px;
+    font-size: 19px;
+  }
+
+  .about-page {
+    padding: 55px 7vw 70px;
+  }
+
+  .about-row {
+    grid-template-columns: 115px 1fr;
+    column-gap: 30px;
+    margin-bottom: 70px;
+  }
+
+  .about-row h1 {
+    font-size: 43px;
+    line-height: .95;
+  }
+
+  .about-row p {
+    font-size: 16px;
+    line-height: 1.28;
+    margin-bottom: 20px;
+  }
+
+  .founder-row {
+    display: grid;
+    grid-template-columns: 1fr 145px;
+    column-gap: 22px;
+    align-items: start;
+  }
+
+  .founder-text h1 {
+    font-size: 40px;
+    line-height: .95;
+    margin-bottom: 24px;
+  }
+
+  .founder-text p {
+    font-size: 15px;
+    line-height: 1.28;
+    margin-bottom: 18px;
+  }
+
+  .founder-img {
+    width: 145px;
+    height: 190px;
+    border-radius: 22px;
+    margin-top: 72px;
+  }
+
+  .club-page {
+    display: block;
+    padding: 55px 7vw 70px;
+  }
+
+  .club-copy h1 {
+    font-size: 46px;
+    line-height: 1.02;
+    margin-bottom: 28px;
+  }
+
+  .club-copy .primary-btn {
+    margin-bottom: 42px;
+  }
+
+  .club-card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .site-footer {
+    padding: 45px 7vw 38px;
+  }
+
+  .footer-brand {
+    font-size: 40px;
+  }
+
+  .footer-tagline {
+    font-size: 26px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links a {
+    font-size: 25px;
+  }
+}
