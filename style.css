@@ -43,19 +43,21 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  padding-top: 10px;
 }
 
 .logo {
-    width: 300px;
-    margin-top: -18px;
-    max-width: 45vw;
-    height: auto;
-    display: block;
-    object-fit: contain;
+  grid-column: 2;
+  width: 230px;
+  height: auto;
+  display: block;
+}
+
+.hero-copy {
+  margin-top: 130px;
 }
 
 .button,
@@ -200,22 +202,33 @@ footer {
 footer p { font-size: 21px; }
 
 @media (max-width: 900px) {
-    .logo {
-        width: 180px;
-        max-width: 50vw;
-        margin: 0 auto;
-    }
+    nav {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  padding-top: 8px;
+
 }
 
-  .button,
-  button {
-    font-size: 13px;
-    padding: 11px 20px;
-  }
+.logo {
 
-  .hero-copy {
-    margin-top: 82px;
-  }
+  width: 155px;
+
+  height: auto;
+
+  margin-top: 0;
+
+}
+
+.hero-copy {
+
+  margin-top: 95px;
+
+}
 
   .eyebrow {
     font-size: 14px;
