@@ -52,9 +52,9 @@ nav {
 }
 
 .logo {
-  width: 220px;
-  height: auto;
-  display: block;
+    width: 280px;
+    height: auto;
+    display: block;
 }
 
 .hero-copy {
@@ -220,14 +220,10 @@ footer p {
 /* MOBILE */
 
 @media (max-width: 900px) {
-  .hero {
-    min-height: 92vh;
-    padding: 6px 6% 46px;
-  }
-
-  .logo {
-    width: 165px;
-  }
+    .logo {
+        width: 210px;
+    }
+}
 
   .hero-copy {
     margin-top: 25px;
