@@ -29,7 +29,7 @@ body {
 
 .hero {
   min-height: 100vh;
-  padding:  4px 6% 46px;
+  padding:  0px 6% 46px;
   border-top: 4px solid var(--wine);
   border-bottom: 4px solid var(--wine);
   background:
@@ -50,7 +50,8 @@ nav {
 }
 
 .logo {
-    width: 200px;
+    width: 300px;
+    margin-top: -18px;
     max-width: 45vw;
     height: auto;
     display: block;
@@ -73,7 +74,7 @@ button {
 }
 
 .hero-copy {
-  margin-top: 45px;
+  margin-top: 15px;
   max-width: 1080px;
 }
 
